@@ -1,0 +1,8 @@
+exclude: [Dockerfile, .gitignore]
+
+# Serving
+detach: false
+port: 5000
+host: 0.0.0.0
+baseurl: ""
+show_dir_listing: false
