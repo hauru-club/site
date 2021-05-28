@@ -1,4 +1,4 @@
-exclude: [Dockerfile, .gitignore]
+exclude: [Dockerfile, .gitignore, Procfile]
 
 # Serving
 detach: false
