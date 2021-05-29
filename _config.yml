@@ -1,8 +1,0 @@
-exclude: [Dockerfile, .gitignore, Procfile]
-
-# Serving
-detach: false
-port: 4000
-host: 0.0.0.0
-baseurl: ""
-show_dir_listing: false

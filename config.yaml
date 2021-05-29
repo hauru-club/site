@@ -1,0 +1,7 @@
+baseURL: "https://hauru.club/"
+languageCode: "en-us"
+
+ignoreFiles:
+  - Dockerfile
+  - .gitignore
+  - Procfile
