@@ -1,0 +1,40 @@
+nav {
+  margin-top: 2rem;
+  color: var(--dark);
+  font-size: .9rem;
+  display: block;
+}
+
+nav a {
+  white-space: nowrap;
+  margin: 0rem 0.25rem 0rem 0.25rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav a::before {
+  content: "[";
+  padding-right: 0.5em;
+}
+
+nav a::after {
+  content: "]";
+  padding-left: 0.5em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 600px) {
+  ul {
+    column-count: 2;
+  }
+}
+
+/* Dark mode overrides */
+@media (prefers-color-scheme: dark) {
+  nav {
+    color: var(--light);
+  }
+}
