@@ -1,1 +1,1 @@
-web: ran -r=public -404=404.html -p=4000 -b=0.0.0.0
+web: ran -r=public -404=404.html -p=$SITE_PORT -b=$SITE_BIND
